@@ -1,0 +1,39 @@
+@media (max-width: 1000px) {
+  .root {
+    padding: 20px 16px;
+  }
+  .head-section {
+    margin-bottom: 24px;
+    &__des {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+  .input {
+    &__wrapper {
+      margin-bottom: 24px;
+    }
+    &__field {
+      min-width: unset;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .btn__wrapper {
+    .btn {
+      width: calc(50% - 8px);
+    }
+    .back {
+      margin-right: 16px;
+      max-width: unset;
+    }
+  }
+  .btn {
+    width: 100%;
+    max-width: unset;
+  }
+}

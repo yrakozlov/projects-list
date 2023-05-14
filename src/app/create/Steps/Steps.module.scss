@@ -1,0 +1,44 @@
+.root {
+  padding: 43px 26px;
+  box-shadow: 1px 0px 0px #2d3232;
+  width: 100%;
+  max-width: 260px;
+  height: 100vh;
+  position: relative;
+
+  &:after {
+    content: "";
+    background-image: url("../../../assets/images/create/bg.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    right: 9%;
+
+    width: 100%;
+    height: 100%;
+    max-height: 131px;
+  }
+}
+
+.steps {
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255);
+    opacity: 0.3;
+
+    margin-bottom: 30px;
+    &.current-step {
+      color: #fff;
+      opacity: 1;
+    }
+  }
+}
+
+@import "responsiveSteps";

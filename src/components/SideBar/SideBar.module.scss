@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+
+  &.active {
+    color: #2b8ce5;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+  }
+}
