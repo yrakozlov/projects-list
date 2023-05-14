@@ -6,7 +6,7 @@ import { useState } from "react";
 import Steps from "./Steps";
 import Form from "./Form";
 
-export default function Page() {
+export default function CreatePage() {
   const [currentStep, setCurrentStep] = useState("first");
 
   const handleChangeStep = (step) => {
