@@ -5,7 +5,6 @@ const nextConfig = {
       "/": { page: "/" },
       "/about": { page: "/about" },
       "/contact": { page: "/contact" },
-      // ... add more pages here as needed
     };
   },
 
