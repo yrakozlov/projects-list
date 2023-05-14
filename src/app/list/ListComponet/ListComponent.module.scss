@@ -4,23 +4,31 @@
     font-size: 16px;
     line-height: 22px;
     color: #ffffff;
-  }
-  &__head {
-    th {
-      border: 1px solid #ddd;
-      padding: 10px;
-      text-align: center;
-      font-weight: bold;
-      font-size: 16px;
-      text-transform: uppercase;
-    }
-  }
-  &__body {
+
+    th,
     td {
       border: 1px solid #ddd;
       padding: 10px;
       text-align: center;
-      font-size: 14px;
+    }
+  }
+  &__head {
+    th {
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    &__row {
+      font-size: 12px;
+      width: 100%;
+    }
+
+    td,
+    th {
+      padding: 0;
     }
   }
 }

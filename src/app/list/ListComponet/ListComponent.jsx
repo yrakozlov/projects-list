@@ -22,8 +22,8 @@ export default function ListComponent() {
                 <th>URL</th>
                 <th>Category</th>
                 <th>Goal</th>
-                <th>Workers count</th>
-                <th>Product launch</th>
+                <th>Workers</th>
+                <th>Launch</th>
                 <th>Email</th>
               </tr>
             </thead>
