@@ -1,5 +1,4 @@
 import { Space_Grotesk } from "next/font/google";
-import SideBar from "@/components/SideBar";
 
 import "@/assets/styles/globals.scss";
 import { Providers } from "@/globalRedux/provider";
