@@ -129,7 +129,12 @@ export default function ThirdStep({ changeTab }) {
         >
           Back
         </button>
-        <Link href={"/"} onClick={create} className={styles.btn}>
+        <Link
+          prefetch={true}
+          href="/list"
+          onClick={create}
+          className={styles.btn}
+        >
           Create Project
         </Link>
       </div>
