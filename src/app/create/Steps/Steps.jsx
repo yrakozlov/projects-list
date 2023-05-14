@@ -10,7 +10,7 @@ const stepsArr = [
   { label: "Create Project", value: "third" },
 ];
 
-export default function Page({ currentStep }) {
+export default function Steps({ currentStep }) {
   return (
     <div className={styles.root}>
       <Link href="/" className="link">
