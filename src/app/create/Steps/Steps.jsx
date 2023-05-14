@@ -1,9 +1,5 @@
 "use client";
 
-import Image from "next/image";
-
-import elipse from "@/assets/icons/create/ellipse.svg";
-
 import styles from "./Steps.module.scss";
 import Elipse from "@/assets/icons/create/Elipse";
 import Link from "next/link";
@@ -17,7 +13,7 @@ const stepsArr = [
 export default function Page({ currentStep }) {
   return (
     <div className={styles.root}>
-      <Link href={"/"} className="link">
+      <Link href="/" className="link">
         Back
       </Link>
       <div className={styles.steps}>

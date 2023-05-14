@@ -1,10 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import styles from "./page.module.scss";
 import { useSelector } from "react-redux";
 import Link from "next/link";
-import { Space_Mono } from "next/font/google";
 
 export default function Home() {
   const { list } = useSelector(({ list }) => list);
