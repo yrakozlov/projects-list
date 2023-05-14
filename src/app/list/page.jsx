@@ -1,6 +1,6 @@
 "use client";
 
-import ListComponent from "../components/List/ListComponent";
+import ListComponent from "./ListComponet";
 
 export default function ListPage() {
   return (
