@@ -13,7 +13,7 @@ const stepsArr = [
 export default function Steps({ currentStep }) {
   return (
     <div className={styles.root}>
-      <Link href="/list" className="link">
+      <Link prefetch={true} href="/list" className="link">
         Back
       </Link>
       <div className={styles.steps}>
