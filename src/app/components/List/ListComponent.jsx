@@ -1,10 +1,10 @@
 "use client";
 
-import styles from "./List.module.scss";
+import styles from "./ListComponent.module.scss";
 import { useSelector } from "react-redux";
 import Link from "next/link";
 
-export default function List() {
+export default function ListComponent() {
   const { list } = useSelector(({ list }) => list);
 
   return (
